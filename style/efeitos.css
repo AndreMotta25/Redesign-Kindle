@@ -1,0 +1,17 @@
+.btn:hover {
+  background-color: white;
+  color: #141414;
+  border-color: white;
+  /* border: none; */
+  animation: direita forwards 0.5s;
+  transition: background-color 0.7s ease-out;
+}
+
+@keyframes direita {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}

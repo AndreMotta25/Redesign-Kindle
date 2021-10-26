@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  font-size: 14px;
+  background-color: #141414;
+  color: white;
+  height: 200vh;
+}
+.right {
+  justify-content: right;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 90%;
+}
+.flex {
+  display: flex;
+}
+.grid-1 {
+  max-width: 68px;
+  width: 100%;
+}
+.grid-4 {
+  max-width: 333px;
+  width: 100%;
+}
+
+.grid-5 {
+  max-width: 422px;
+  width: 100%;
+}
+.grid-6 {
+  max-width: 510px;
+  width: 100%;
+}
+.foto {
+  width: 100%;
+  height: 100%;
+}
+img {
+  display: block;
+}
+@font-face {
+  font-family: "Ember Display";
+  src: url("../font/AmazonEmberDisplay_Md.ttf");
+}
+@font-face {
+  font-family: "Ember lt";
+  src: url("../font/AmazonEmber_Lt.ttf");
+}
+@font-face {
+  font-family: "Ember md";
+  src: url("../font/Amazon-Ember-Medium.ttf");
+}
+@font-face {
+  font-family: "Ember bd";
+  src: url("../font/AmazonEmber_Bd.ttf");
+}
+.titulo {
+  font-family: "Ember Display", "Times New Roman", Times, serif;
+  font-size: 7.2rem;
+}
+.sub-titulo {
+  font-family: "Ember md";
+  font-size: 3.6rem;
+  margin-bottom: 44px;
+}
+html {
+  font-size: 62.5%;
+}
+.btn {
+  max-width: 171px;
+  display: block;
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 13px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Ember md";
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 42%);
+}

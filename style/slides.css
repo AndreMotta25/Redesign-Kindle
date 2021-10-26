@@ -1,0 +1,113 @@
+#caracteristicas-importantes {
+  height: 412px;
+  width: 100%;
+  margin-top: 120px;
+  position: relative;
+  flex-direction: column;
+}
+
+.fundo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 41px 0px;
+}
+
+#caracteristicas-importantes h2 {
+  font-size: 4.8rem;
+  font-family: "Ember md";
+  color: white;
+  text-align: center;
+}
+#caracteristicas-importantes h2::after {
+  width: 100%;
+  display: block;
+  content: "";
+  height: 3px;
+  background-color: white;
+}
+#caracteristicas-importantes p {
+  font-family: "Ember bd";
+  max-width: 309px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+/*  ========================== Luz Embutida ==================== */
+#LuzEmbutida {
+  background-image: url("../fotos/luzEmbutida.jpg");
+}
+#LuzEmbutida p {
+  text-align: left;
+}
+
+/* =========================== leia apenas com uma mão ========================= */
+#Leia-com-uma-mao {
+  background-image: url("../fotos/leia-com-apenas-uma-mao.jpg");
+}
+#Leia-com-uma-mao h2 {
+  max-width: 367px;
+
+  margin: 0 auto;
+}
+/* ======================= bateria ======================== */
+#Bateria {
+  background-image: url("../fotos/bateria.jpg");
+}
+#Bateria h2 {
+  max-width: 315px;
+}
+/* ======================= distracao ======================= */
+#Distracao {
+  background-image: url("../fotos/distracao.jpg");
+}
+#Distracao h2 {
+  max-width: 250px;
+  margin: 0 auto;
+}
+#Distracao p {
+  max-width: 334px;
+}
+/* ============================ efeitos para o javascript ================== */
+[data-btn-slide] {
+  align-self: center;
+  position: absolute;
+  bottom: 41px;
+}
+[data-btn-slide] span {
+  border-radius: 50%;
+  background-color: white;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+[data-btn-slide] span.ativo {
+  background-color: tomato;
+  color: tomato;
+}
+[data-btn-slide] span:nth-child(1) {
+  margin-left: 0px;
+}
+
+[data-slide] {
+  position: absolute;
+  opacity: 0;
+}
+[data-slide].ativo {
+  position: relative;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  animation: desliza forwards 0.5s;
+}
+@keyframes desliza {
+  from {
+    transform: translateX(-30px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}

@@ -1,0 +1,30 @@
+#Kindle {
+  margin-top: 45px;
+  justify-content: space-between;
+  padding-right: 88px;
+}
+
+.frente-kindle {
+  padding: 0 13px;
+  border-radius: 30px;
+  /* box-shadow: 5px 5px 30px rgba(250, 246, 264, 25%); */
+}
+.frente-kindle img {
+  box-shadow: 5px 5px 30px rgba(250, 246, 264, 25%);
+  border-radius: 30px;
+}
+#descricao {
+  text-align: center;
+}
+#descricao h1 {
+  border-bottom: 3px solid white;
+  max-width: 205px;
+  margin: 50px auto 50px auto;
+}
+#descricao p {
+  margin-bottom: 20px;
+  font-family: "Ember lt";
+}
+#descricao a {
+  margin-top: 55px;
+}

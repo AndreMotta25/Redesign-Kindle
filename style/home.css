@@ -1,3 +1,7 @@
+header {
+  padding: 25px 0px;
+  margin-bottom: 80px !important;
+}
 #Kindle {
   margin-top: 45px;
   justify-content: space-between;
@@ -24,6 +28,8 @@
 #descricao p {
   margin-bottom: 20px;
   font-family: "Ember lt";
+  /* max-width: 343px; */
+  text-align: center;
 }
 #descricao a {
   margin-top: 55px;

@@ -22,13 +22,13 @@
   color: white;
   text-align: center;
 }
-#caracteristicas-importantes h2::after {
+/* #caracteristicas-importantes h2::after {
   width: 100%;
   display: block;
   content: "";
   height: 3px;
   background-color: white;
-}
+} */
 #caracteristicas-importantes p {
   font-family: "Ember bd";
   max-width: 309px;

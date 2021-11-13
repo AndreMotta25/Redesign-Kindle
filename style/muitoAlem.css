@@ -1,0 +1,38 @@
+/* ================== muitoAlem ================*/
+#muitoAlem {
+  padding-top: 120px;
+}
+#muitoAlem h1 {
+  margin-bottom: 63px;
+}
+#muitoAlem img {
+  width: 92%;
+  /* foi muito eficiente para colocar a sombra, muito melhor que o box-shadow */
+  filter: drop-shadow(-10px 10px 68px rgba(250, 246, 264, 25%));
+}
+#muitoAlem .kindle-foto-2 {
+  justify-content: right;
+}
+
+#muitoAlemContainer {
+  justify-content: space-between;
+}
+
+/* ==================  caracteristicas-secundarias =================== */
+#muitoAlem h3 {
+  margin-bottom: 9px;
+  text-align: center;
+}
+/* biblioteca */
+#caracteristicas-secundarias img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 8px auto;
+}
+#caracteristicas-secundarias p {
+  text-align: center;
+  font-family: "Ember lt";
+}
+.mini-container {
+  padding-top: 27px;
+}

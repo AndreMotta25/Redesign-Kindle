@@ -1,0 +1,27 @@
+#imensidao {
+  margin: 120px 0px;
+  padding: 94px 0px;
+  background: url("../fotos/fundo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#imensidao h1 {
+  margin-bottom: 54px;
+  text-align: center;
+}
+#imensidao p {
+  max-width: 852px;
+  text-align: center;
+  margin: 0 auto 63px auto;
+  font-family: "Ember lt";
+  font-size: 18px;
+}
+#imensidao .btn {
+  max-width: 278px;
+  background-color: black;
+  color: white;
+}
+#unlimited {
+  margin-bottom: 26px;
+}

@@ -1,0 +1,41 @@
+table {
+  /* border: 3px solid white; */
+  border-collapse: collapse;
+}
+td {
+  font-family: "Ember lt";
+}
+th {
+  font-family: "Ember md";
+  letter-spacing: 0.2rem;
+}
+td,
+th {
+  border: 3px solid white;
+  padding: 14px;
+  text-align: center;
+}
+#detalhes-tecnicos h1 {
+  text-align: center;
+}
+#detalhes-tecnicos h2 {
+  font-size: 4.8rem;
+  font-family: "Ember Display";
+  font-weight: 800;
+  margin-top: 23px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+#conteudoByAmazon {
+  justify-content: space-between;
+}
+#byAmazon {
+  align-self: center;
+}
+#byAmazon span {
+  display: block;
+  text-align: center;
+}
+#by {
+  margin-bottom: 88px;
+}

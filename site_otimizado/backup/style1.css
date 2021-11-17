@@ -1,0 +1,575 @@
+/* ===================== inicio geral ======================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  font-size: 14px;
+  background-color: #141414;
+  color: white;
+  /* height: 200vh; */
+}
+.right {
+  justify-content: right;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 90%;
+}
+.flex {
+  display: flex;
+}
+.grid-1 {
+  max-width: 68px;
+  width: 100%;
+}
+.grid-4 {
+  max-width: 333px;
+  width: 100%;
+}
+
+.grid-5 {
+  max-width: 422px;
+  width: 100%;
+}
+.grid-6 {
+  max-width: 510px;
+  width: 100%;
+}
+.grid-7 {
+  max-width: 599px;
+  width: 100%;
+}
+.foto {
+  width: 100%;
+  height: 100%;
+}
+img {
+  display: block;
+}
+@font-face {
+  font-family: "Ember Display";
+  src: url("../font/AmazonEmberDisplay_Md.ttf");
+}
+@font-face {
+  font-family: "Ember lt";
+  src: url("../font/AmazonEmber_Lt.ttf");
+}
+@font-face {
+  font-family: "Ember md";
+  src: url("../font/Amazon-Ember-Medium.ttf");
+}
+@font-face {
+  font-family: "Ember bd";
+  src: url("../font/AmazonEmber_Bd.ttf");
+}
+.titulo {
+  font-family: "Ember Display", "Times New Roman", Times, serif;
+  font-size: 7.2rem;
+}
+.sub-titulo {
+  font-family: "Ember md";
+  font-size: 3.6rem;
+  margin-bottom: 44px;
+}
+html {
+  font-size: 62.5%;
+}
+.btn {
+  max-width: 171px;
+  display: block;
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 13px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Ember md";
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 42%);
+}
+/* ========================== fim geral =========================== */
+/*  ============================= home =========================== */
+header {
+  padding: 25px 0px;
+  margin-bottom: 80px !important;
+}
+#Kindle {
+  margin-top: 45px;
+  justify-content: space-between;
+  padding-right: 88px;
+}
+
+.frente-kindle {
+  padding: 0 13px;
+  border-radius: 30px;
+  /* box-shadow: 5px 5px 30px rgba(250, 246, 264, 25%); */
+}
+.frente-kindle img {
+  box-shadow: 5px 5px 30px rgba(250, 246, 264, 25%);
+  border-radius: 30px;
+}
+#descricao {
+  text-align: center;
+}
+#descricao h1 {
+  border-bottom: 3px solid white;
+  max-width: 205px;
+  margin: 50px auto 50px auto;
+}
+#descricao p {
+  margin-bottom: 20px;
+  font-family: "Ember lt";
+  /* max-width: 343px; */
+  text-align: center;
+}
+#descricao a {
+  margin-top: 55px;
+}
+/* =========================== fim home ============================ */
+/* ============================= imensidao ========================= */
+#imensidao {
+  margin: 120px 0px;
+  padding: 94px 0px;
+  background: url("../fotos/fundo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#imensidao h1 {
+  margin-bottom: 54px;
+  text-align: center;
+}
+#imensidao p {
+  max-width: 852px;
+  text-align: center;
+  margin: 0 auto 63px auto;
+  font-family: "Ember lt";
+  font-size: 18px;
+}
+#imensidao .btn {
+  max-width: 278px;
+  background-color: black;
+  color: white;
+}
+#unlimited {
+  margin-bottom: 26px;
+}
+/*=============================== fim imensidao =============================== */
+/* ================== muitoAlem ================*/
+#muitoAlem {
+  padding-top: 120px;
+}
+#muitoAlem h1 {
+  margin-bottom: 63px;
+}
+#muitoAlem img {
+  width: 92%;
+  /* foi muito eficiente para colocar a sombra, muito melhor que o box-shadow */
+  filter: drop-shadow(-10px 10px 68px rgba(250, 246, 264, 25%));
+}
+#muitoAlem .kindle-foto-2 {
+  justify-content: right;
+}
+
+#muitoAlemContainer {
+  justify-content: space-between;
+}
+
+/* ==================  caracteristicas-secundarias =================== */
+#muitoAlem h3 {
+  margin-bottom: 9px;
+  text-align: center;
+}
+/* biblioteca */
+#caracteristicas-secundarias img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 8px auto;
+}
+#caracteristicas-secundarias p {
+  text-align: center;
+  font-family: "Ember lt";
+}
+.mini-container {
+  padding-top: 27px;
+}
+/*  ================================= fim  caracteristicas-secundarias ============================*/
+/*=========================  slide ==============================*/
+#caracteristicas-importantes {
+  height: 412px;
+  width: 100%;
+  margin-top: 120px;
+  position: relative;
+  flex-direction: column;
+}
+
+.fundo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 41px 0px;
+}
+
+#caracteristicas-importantes h2 {
+  font-size: 4.8rem;
+  font-family: "Ember md";
+  color: white;
+  text-align: center;
+}
+/* #caracteristicas-importantes h2::after {
+  width: 100%;
+  display: block;
+  content: "";
+  height: 3px;
+  background-color: white;
+} */
+#caracteristicas-importantes p {
+  font-family: "Ember bd";
+  max-width: 309px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+/*  ========================== Luz Embutida ==================== */
+#LuzEmbutida {
+  background-image: url("../fotos/luzEmbutida.jpg");
+}
+#LuzEmbutida p {
+  text-align: left;
+}
+
+/* =========================== leia apenas com uma mão ========================= */
+#Leia-com-uma-mao {
+  background-image: url("../fotos/leia-com-apenas-uma-mao.jpg");
+}
+#Leia-com-uma-mao h2 {
+  max-width: 367px;
+
+  margin: 0 auto;
+}
+/* ======================= bateria ======================== */
+#Bateria {
+  background-image: url("../fotos/bateria.jpg");
+}
+#Bateria h2 {
+  max-width: 315px;
+}
+/* ======================= distracao ======================= */
+#Distracao {
+  background-image: url("../fotos/distracao.jpg");
+}
+#Distracao h2 {
+  max-width: 250px;
+  margin: 0 auto;
+}
+#Distracao p {
+  max-width: 334px;
+}
+/* ============================ efeitos para o javascript ================== */
+[data-btn-slide] {
+  align-self: center;
+  position: absolute;
+  bottom: 41px;
+}
+[data-btn-slide] span {
+  border-radius: 50%;
+  background-color: white;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+[data-btn-slide] span.ativo {
+  background-color: tomato;
+  color: tomato;
+}
+[data-btn-slide] span:nth-child(1) {
+  margin-left: 0px;
+}
+
+[data-slide] {
+  position: absolute;
+  opacity: 0;
+}
+[data-slide].ativo {
+  position: relative;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  animation: desliza forwards 0.5s;
+}
+@keyframes desliza {
+  from {
+    transform: translateX(-30px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+/* ================================== fim slide =========================== */
+/* ============================ cards ================================= */
+.cards {
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
+.cards h2 {
+  font-family: "Ember md";
+  font-size: 4.8rem;
+  color: white;
+  text-align: center;
+  /* border-bottom: 3px solid white; */
+  max-width: 311px;
+  margin: 0 auto 60px auto;
+}
+.card {
+  /* background-color: white; */
+  /* padding: 70px 0; */
+  overflow: hidden;
+  color: white;
+  height: 170px;
+  border-radius: 20px;
+  font-family: "Ember lt";
+  border: 2px solid white;
+  transition: all 0.5s;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.conteudo {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-family: "Ember md";
+}
+.card h4 {
+  font-family: "Ember lt";
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.card:hover {
+  overflow: visible;
+  border: 2px solid white;
+  padding: 71px 32px 0px 32px;
+  background-color: #141414;
+  height: 500px;
+  color: white;
+  text-align: center;
+  transition: all 0.5s;
+}
+.card:hover .conteudo {
+  width: auto;
+  height: auto;
+  margin-bottom: 30px;
+
+  /* color: white; */
+}
+.conteudo .categoria {
+  display: block;
+  /* border-bottom: 3px solid white; */
+  margin-top: 5px;
+  font-size: 2.4rem;
+}
+.card .btn {
+  width: 247px;
+  max-width: 247px;
+  margin-top: 94px;
+}
+/* =============================== fim cards =======================  */
+/*  ================================== detalhes ===========================*/
+table {
+  /* border: 3px solid white; */
+  border-collapse: collapse;
+}
+td {
+  font-family: "Ember lt";
+}
+th {
+  font-family: "Ember md";
+  letter-spacing: 0.2rem;
+}
+td,
+th {
+  border: 3px solid white;
+  padding: 14px;
+  text-align: center;
+}
+#detalhes-tecnicos h1 {
+  text-align: center;
+}
+#detalhes-tecnicos h2 {
+  font-size: 4.8rem;
+  font-family: "Ember Display";
+  font-weight: 800;
+  margin-top: 23px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+#conteudoByAmazon {
+  justify-content: space-between;
+}
+#byAmazon {
+  align-self: center;
+}
+#byAmazon span {
+  display: block;
+  text-align: center;
+}
+#by {
+  margin-bottom: 88px;
+}
+/* ================================= fim detalhes =============================== */
+/* ============================ capas =========================== */
+#capas {
+  background-image: url("../fotos/fundo-capa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 42px 0px;
+  margin-bottom: 120px;
+}
+#capas h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#capas p {
+  max-width: 438px;
+  margin: 0 auto 150px auto;
+  font-family: "Ember lt";
+  text-align: center;
+}
+/* ============================ fim capas =========================== */
+/* ============================= footer =============================  */
+footer {
+  background-color: white;
+  padding: 54px 0px;
+  color: #141414;
+  text-align: center;
+  margin-top: 120px;
+}
+footer h3#footer {
+  margin-bottom: 0px;
+}
+/* ============================== efeitos ========================*/
+.btn:hover {
+  background-color: white;
+  color: #141414;
+  border-color: white;
+  /* border: none; */
+  animation: direita forwards 0.5s;
+  transition: background-color 0.7s ease-out;
+}
+
+@keyframes direita {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}
+/* ======================= fim efeitos ============================ */
+/* ==================================================================  FIM RESPONSIVO ================================================ */
+
+@media screen and (max-width: 1020px) {
+  /* =================== KINDLE =================== */
+  #Kindle {
+    padding-right: 0px;
+  }
+  html {
+    font-size: 40%;
+  }
+  .frente-kindle {
+    max-width: 333px;
+    width: 100%;
+    padding: 0px;
+    margin-right: 20px;
+  }
+  #descricao {
+    margin-bottom: 50px;
+  }
+  #descricao h1 {
+    margin-top: 0px;
+  }
+  /* ==================== FIM KINDLE ===================== */
+  #muitoAlem .kindle-foto-2 {
+    justify-content: flex-start !important;
+    /* max-width: 333px; */
+  }
+  #caracteristicas-secundarias {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 740px) {
+  /* ================= kindle =================*/
+  #Kindle {
+    align-items: center;
+    flex-direction: column;
+  }
+  .frente-kindle {
+    margin-right: 0px;
+    order: 1;
+  }
+  /* ================= fim kindle =================*/
+  /* =================== cards ====================== */
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* ================= fim cards ===================*/
+  /* ======================= muitoAlem ================== */
+  #muitoAlemContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  #muitoAlem h1.titulo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #muitoAlem .kindle-foto-2 {
+    justify-content: center !important;
+    /* max-width: 333px; */
+  }
+  /* ======================  fim muitoAlem =================*/
+  /* ================== capas ====================*/
+  #capas p {
+    font-weight: bold;
+  }
+  /* ================== fim capas ==================== */
+  /* ========================= detalhes-tecnicos ======================= */
+  #conteudoByAmazon {
+    flex-direction: column;
+  }
+  #byAmazon {
+    margin-top: 50px;
+  }
+  /* ========================= fim detalhes-tecnicos ======================= */
+  /*  ================== slides  =====================*/
+  .right {
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+  }
+  #LuzEmbutida p {
+    text-align: center !important;
+  }
+  #Distracao {
+    align-items: center;
+    justify-content: center;
+  }
+  #Distracao .container-interno {
+    width: 100%;
+  }
+  /* ====================== fim slides =====================  */
+}
+/* ==================================================================  FIM RESPONSIVO ================================================ */

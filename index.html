@@ -112,18 +112,23 @@
         <div class="flex" id="muitoAlemContainer">
           <!-- tenho que colocar o picture aqui depois -->
           <div class="grid-5 flex kindle-foto-2">
-            <img
-              src="fotos/kindle-2.png"
-              alt=""
-              class="foto"
-              srcset=""
-              lazy="loading"
-            />
+            <picture class="grid-5">
+              <source srcset="fotos/testefoto.png" media="(max-width:740px)" />
+              <img
+                src="fotos/kindle-2.png"
+                class="foto"
+                alt="Kindle 10a geração"
+              />
+            </picture>
           </div>
           <div id="caracteristicas-secundarias" class="grid-6">
             <ul class="grid-6">
               <li id="biblioteca" class="mini-container">
-                <img src="fotos/biblioteca.svg" alt="" srcset="" />
+                <img
+                  src="fotos/biblioteca.svg"
+                  alt="milhares de livros"
+                  srcset=""
+                />
                 <h3 class="sub-titulo">Uma biblioteca nas mãos</h3>
                 <p>
                   é capaz de armazenar milhares de livros com uma memoria de 8
@@ -131,7 +136,11 @@
                 </p>
               </li>
               <li id="velocidade" class="mini-container">
-                <img src="fotos/download.svg" alt="" srcset="" />
+                <img
+                  src="fotos/download.svg"
+                  alt="Download de alta velocidade"
+                  srcset=""
+                />
                 <h3 class="sub-titulo">Download de alta velocidade</h3>
                 <p>
                   Baixe seus livros diretamente no seu Kindle, sem precisar de
@@ -140,7 +149,11 @@
                 </p>
               </li>
               <li id="clique" class="mini-container">
-                <img src="fotos/clique.svg" alt="" srcset="" />
+                <img
+                  src="fotos/clique.svg"
+                  alt="Controle em um clique"
+                  srcset=""
+                />
                 <h3 class="sub-titulo">Controle em um clique</h3>
                 <p>
                   Voce pode marcar trechos, melhorar seu vocabulario com o

@@ -1,4 +1,5 @@
 @media screen and (max-width: 1020px) {
+  /* =================== KINDLE =================== */
   #Kindle {
     padding-right: 0px;
   }
@@ -9,8 +10,6 @@
     max-width: 333px;
     width: 100%;
     padding: 0px;
-    /* height: 80vh; */
-    /* max-height: 400px; */
     margin-right: 20px;
   }
   #descricao {
@@ -19,8 +18,17 @@
   #descricao h1 {
     margin-top: 0px;
   }
+  /* ==================== FIM KINDLE ===================== */
+  #muitoAlem .kindle-foto-2 {
+    justify-content: flex-start !important;
+    /* max-width: 333px; */
+  }
+  #caracteristicas-secundarias {
+    max-width: 400px;
+  }
 }
 @media screen and (max-width: 740px) {
+  /* ================= kindle =================*/
   #Kindle {
     align-items: center;
     flex-direction: column;
@@ -29,8 +37,55 @@
     margin-right: 0px;
     order: 1;
   }
+  /* ================= fim kindle =================*/
+  /* =================== cards ====================== */
   .cards-container {
     flex-direction: column;
     align-items: center;
   }
+  /* ================= fim cards ===================*/
+  /* ======================= muitoAlem ================== */
+  #muitoAlemContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  #muitoAlem h1.titulo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #muitoAlem .kindle-foto-2 {
+    justify-content: center !important;
+    /* max-width: 333px; */
+  }
+  /* ======================  fim muitoAlem =================*/
+  /* ================== capas ====================*/
+  #capas p {
+    font-weight: bold;
+  }
+  /* ================== fim capas ==================== */
+  /* ========================= detalhes-tecnicos ======================= */
+  #conteudoByAmazon {
+    flex-direction: column;
+  }
+  #byAmazon {
+    margin-top: 50px;
+  }
+  /* ========================= fim detalhes-tecnicos ======================= */
+  /*  ================== slides  =====================*/
+  .right {
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+  }
+  #LuzEmbutida p {
+    text-align: center !important;
+  }
+  #Distracao {
+    align-items: center;
+    justify-content: center;
+  }
+  #Distracao .container-interno {
+    width: 100%;
+  }
+  /* ====================== fim slides =====================  */
 }

@@ -125,7 +125,7 @@ header {
 #imensidao {
   margin: 120px 0;
   padding: 94px 0;
-  background: url(../fotos/fundo1.png);
+  background: url(../fotos/fundo1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,26 +210,26 @@ header {
   text-align: center;
 }
 #LuzEmbutida {
-  background-image: url(../fotos/luzEmbutida.jpg);
+  background-image: url(../fotos/luzEmbutida.webp);
 }
 #LuzEmbutida p {
   text-align: left;
 }
 #Leia-com-uma-mao {
-  background-image: url(../fotos/leia-com-apenas-uma-mao.jpg);
+  background-image: url(../fotos/leia-com-apenas-uma-mao.webp);
 }
 #Leia-com-uma-mao h2 {
   max-width: 367px;
   margin: 0 auto;
 }
 #Bateria {
-  background-image: url(../fotos/bateria.jpg);
+  background-image: url(../fotos/bateria.webp);
 }
 #Bateria h2 {
   max-width: 315px;
 }
 #Distracao {
-  background-image: url(../fotos/distracao.jpg);
+  background-image: url(../fotos/distracao.webp);
 }
 #Distracao h2 {
   max-width: 250px;
@@ -380,7 +380,7 @@ th {
   margin-bottom: 88px;
 }
 #capas {
-  background-image: url(../fotos/fundo-capa.png);
+  background-image: url(../fotos/fundo-capa.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

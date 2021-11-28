@@ -265,10 +265,12 @@ header {
 [data-slide] {
   position: absolute;
   opacity: 0;
+  visibility: hidden;
 }
 [data-slide].ativo {
   position: relative;
   opacity: 1;
+  visibility: visible;
   transition: all 0.5s ease-in-out;
   animation: desliza forwards 0.5s;
 }
